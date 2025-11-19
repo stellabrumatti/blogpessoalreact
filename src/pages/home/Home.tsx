@@ -1,10 +1,11 @@
+import ListaPostagens from "../../components/postagem/listapostagem/ListaPostagem"
+import ModalPostagem from "../../components/postagem/modalpostagem/ModalPostagem"
+
 function Home() {
     return (
-        /*Essa é o container*/
-        <div
-           
-            className = "bg-indigo-900 flex justify-center"
-        >
+        <>
+      
+        <div className = "bg-indigo-900 flex justify-center">
             {/*Grid que divide a tela em 2 colunas*/}
             <div
                
@@ -30,14 +31,10 @@ function Home() {
                     {/*Essa é um link/botao*/}
                     <div
                        
-                        className="flex justify-around gap-4"
-                    >
-                        <div
-                           
-                            className="rounded text-white border-white border-solid border-2 py-2 px-4"
-                        >Nova Postagem</div>
+                        className="flex justify-around gap-4">
+                        
  
- 
+                             <ModalPostagem />
                     </div>
                 </div>
                 {/*Essa é minha coluna da direita*/}
@@ -57,6 +54,9 @@ function Home() {
  
             </div>
         </div>
+
+         <ListaPostagens />
+     </>
     )
 }
  
