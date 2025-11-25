@@ -5,12 +5,9 @@ import Home from "./pages/home/Home"
 import Login from "./pages/login/Login"
 import Cadastro from "./pages/cadastro/Cadastro"
 import { AuthProvider } from "./contexts/AuthContext"
-import ListaTemas from "./components/tema/listatemas/ListaTemas"
-import FormTema from "./components/tema/formtema/FormTema"
-import DeletarTema from "./components/tema/deletartema/DeletarTema"
-import ListaPostagens from "./components/postagem/listapostagem/ListaPostagem"
-import FormPostagem from "./components/postagem/formpostagem/FormPostagem"
-import DeletarPostagem from "./components/postagem/deletarpostagem/DeletarPostagem"
+import ListaTemas from "./components/tema/listatemas/ListaTemas";
+import FormTema from "./components/tema/formtema/FormTema";
+import DeletarTema from "./components/tema/deletartema/DeletarTema";
 import Perfil from "./pages/perfil/Perfil"
 import 'react-toastify/ReactToastify.css';
 
